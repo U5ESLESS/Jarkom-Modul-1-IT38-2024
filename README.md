@@ -27,7 +27,13 @@
 
 ## Packets Barrage
 ![WhatsApp Image 2024-09-19 at 01 47 08_91388826](https://github.com/user-attachments/assets/b9b40a9e-c00f-4d00-bb00-5350b78e2907)
-### Penjelasan:
+### Penjelasan: 
+#### Ketika Wireshark terbuka, saya langsung memilih IP Source teratas, lalu saya melihat dari IP sourcenya.
+![image](https://github.com/user-attachments/assets/a61e0bc2-01fc-4bb6-af8c-a270dd76ceeb) <br><br><br>
+#### Saya menggunakan filter http && ip.src eq 172.21.88.207, terlihat di bagian kanan bawah yang terdisplay ada angka 1918, yang kemudian dapat dikurangi 1 menjadi 1917.
+![image](https://github.com/user-attachments/assets/42a5997b-24f7-449c-abc3-31131fb61125) <br><br><br>
+#### Follow file terakhir dari hasil yang telah didapatkan tadi untuk mendapatkan nama file yang didownload dan isi pesan yang disisipkan oleh attacker. 
+![image](https://github.com/user-attachments/assets/6bc9862b-34e7-4597-9a84-71f427cdca6b) <br><br><br><br>
 
 ## FTP Login
 ![WhatsApp Image 2024-09-19 at 01 47 07_31fc9c5d](https://github.com/user-attachments/assets/22b1739a-7cc0-4221-a21a-ac48037b4a2b)
