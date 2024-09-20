@@ -45,6 +45,10 @@
 ## Surprise
 ![WhatsApp Image 2024-09-19 at 01 47 10_1d8caf87](https://github.com/user-attachments/assets/2baf877f-39a1-4422-a706-6c4ac11e570c)
 ### Penjelasan:
+#### Dari isi file sebelumnya, kita bisa menemukan nama service yang digunakan dan file yang dikirim oleh attacker.
+![image](https://github.com/user-attachments/assets/07d21460-f52c-48d7-ad81-9ff4060b62a8) <br><br><br>
+#### Lalu semisal kita scroll kebawah, kita akan menemukan isi dari file .cp tersebut. kita kemudian jalankan kode tersebut dan akan keluar sebuah pesan.
+![image](https://github.com/user-attachments/assets/4ca9a2f1-0f61-469f-bdbe-d24445cc306e) <br><br><br><br>
 
 ## Corporate Breach
 ![WhatsApp Image 2024-09-19 at 01 55 37_de94d13f](https://github.com/user-attachments/assets/7b790330-a25f-417c-8292-a1fafc656a75)
