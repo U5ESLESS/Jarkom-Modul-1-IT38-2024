@@ -3,6 +3,7 @@
 ## Anggota Kelompok
 ### Rafael Gunawan (5027231019)
 ### Randist Prawanda Putra (5027231059)
+<hr>
 
 ## Advance Sanity Check
 ![image](https://github.com/user-attachments/assets/72404291-f721-414d-8c5e-5013cabd9b42)
