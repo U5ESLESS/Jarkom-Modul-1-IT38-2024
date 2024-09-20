@@ -52,21 +52,52 @@
 ![image](https://github.com/user-attachments/assets/4ca9a2f1-0f61-469f-bdbe-d24445cc306e) <br><br><br><br>
 
 ## Corporate Breach
-![WhatsApp Image 2024-09-19 at 01 55 37_de94d13f](https://github.com/user-attachments/assets/7b790330-a25f-417c-8292-a1fafc656a75)
+![image-3](https://github.com/user-attachments/assets/c68238c3-0f6e-42b6-8f48-9c8f97945729)
 ### Penjelasan:
+- buka pcap file ke wireshark dan buka juga nc (netcat) pada linux untuk hint
+- untuk soal pertama kita dapat menemukan nya dengan cara follow line paling atas
+![image-1](https://github.com/user-attachments/assets/b7ff3bac-dbc5-4c16-a3c0-ec02baf1933c)
+- kemudian untuk soal ke 2 & 3 saya menemukan nya sekaligus pada salah satu protocol http
+![image-2](https://github.com/user-attachments/assets/9ec3141d-a89b-4618-a114-623223c60129)
 
 ## Pegawai Negeri Sebelah
-![WhatsApp Image 2024-09-19 at 01 55 53_ee3cb89a](https://github.com/user-attachments/assets/11e81edd-b144-450d-b743-5eefc7d1b86c)
+![image-4](https://github.com/user-attachments/assets/305116b0-03da-4693-9bed-89a91a7a1b4d)
 ### Penjelasan:
+- buka pcap file ke wireshark dan buka juga nc (netcat) pada linux untuk hint
+- untuk soal pertama kita dapat menggunakan fitur filter dengan mengetik `frame contains "nNnM%coQuF"`
+![image-5](https://github.com/user-attachments/assets/e56f9d94-44ee-4e78-9c2d-80104eafc478)
+- untuk soal-soal berikutnya gunakan fitur find pada follow
+- Soal 2
+![image-6](https://github.com/user-attachments/assets/ab58dae4-a44a-4e26-8d1a-733defda5e72)
+- Soal 3
+![image-7](https://github.com/user-attachments/assets/0754278f-6561-48e1-967c-84eca15edf66)
+- Soal 4
+![image-8](https://github.com/user-attachments/assets/e3ea9b01-bf0d-43da-ad0d-ae80ce0214da)
 
 ## EZ
-![WhatsApp Image 2024-09-19 at 01 56 19_fced0dca](https://github.com/user-attachments/assets/66ea2ad9-2ccf-4c2b-b563-f937800189d8)
+![image-9](https://github.com/user-attachments/assets/2f4c4843-89d1-431e-8a52-5c5ed4a24c06)
 ### Penjelasan:
+- buka pcap file ke wireshark dan buka juga nc (netcat) pada linux untuk hint
+- untuk soal pertama kita bisa menemukan nya saat menggunakan fitur follow di line pertama
+![image-10](https://github.com/user-attachments/assets/db429447-cacf-4c86-910f-6b8c566384d9)
+- untuk jawaban dari soal kedua, kita hanya butuh mengeclick pada pesan yang ingin kita liat port nya
+![image-11](https://github.com/user-attachments/assets/1bfc00ab-e3f9-4777-91db-38c6a3dff4cc)
 
 ## Rizzset
-![WhatsApp Image 2024-09-19 at 01 56 32_ea11579e](https://github.com/user-attachments/assets/95cbb603-c7aa-4d02-85e4-c92cdaf86a67)
+![image-12](https://github.com/user-attachments/assets/191cd11e-8c4a-49bf-8559-f67a607d6a20)
 ### Penjelasan:
+- buka pcap file ke wireshark dan buka juga nc (netcat) pada linux untuk hint
+- untuk soal 1 dan 2 kita bisa melihat nya langsung pada info dari line no. 8
+![image-13](https://github.com/user-attachments/assets/112956ec-f6ce-4a77-b8bf-fbcaefdc20d6)
+- untuk soal ke 3 kita harus menggunakan tools jarm pada domain dari `www.its.ac.id` pada terminal linux
+![WhatsApp Image 2024-09-21 at 00 34 41_4e0e572c](https://github.com/user-attachments/assets/316357a3-000b-415c-b490-54124e110009)
 
 ## 22 Nightmare
-![WhatsApp Image 2024-09-19 at 01 56 59_f08532e3](https://github.com/user-attachments/assets/99b593e9-34c9-47ab-96f2-60a6c7829055)
+![image-14](https://github.com/user-attachments/assets/3548b0cc-e05c-401a-b498-a4514804a5b0)
 ### Penjelasan:
+- untuk soal 1 (nama file jpg) & 2 (isi gambar dari file jpg)  karena saya menemukan kejanggalan pada salah satu line FTP yang mempunyai file gambar, kita dapat menggunakan fitur Export object dan pilih opsi FTP-DATA kemudian download seluruh data yang ada (Sh1k4.jpg & noko.py)
+![image-15](https://github.com/user-attachments/assets/9df430b1-67c2-4830-86da-625805b516ba)
+- untuk mencari soal 3 saya tidak sengaja menemukan info `stor noko.py` pada stream 141
+![image-16](https://github.com/user-attachments/assets/70f551ab-d69e-4c48-83d9-6dbffb8c983b)
+- untuk soal terakhir kita dapat membuka file python (noko.py) kemudian mengubah code agar bisa menjalankan operasi XOR dan memasukan nilai key dengan cara perhatikan clue dalam code python `img msg` yaitu NUN
+![image-17](https://github.com/user-attachments/assets/05baaf14-7bec-4685-b0a8-00105f6aca2c)
