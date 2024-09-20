@@ -70,5 +70,3 @@
 ## 22 Nightmare
 ![WhatsApp Image 2024-09-19 at 01 56 59_f08532e3](https://github.com/user-attachments/assets/99b593e9-34c9-47ab-96f2-60a6c7829055)
 ### Penjelasan:
-
-![image](https://github.com/user-attachments/assets/b0d42e22-ffd5-4100-b234-24395e8f3c61)
