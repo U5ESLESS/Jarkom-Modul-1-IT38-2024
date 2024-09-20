@@ -20,6 +20,10 @@
 ## Illegal Breakthrough
 ![WhatsApp Image 2024-09-19 at 01 47 06_e0ae653a](https://github.com/user-attachments/assets/31463041-8d49-4555-aa38-63b76f54a21a)
 ### Penjelasan:
+#### Ketika Wireshark terbuka, saya langsung memilih IP Destination teratas, lalu saya melihat dari IP destinationnya.
+![image](https://github.com/user-attachments/assets/a61e0bc2-01fc-4bb6-af8c-a270dd76ceeb) <br><br><br>
+#### Setelah membaca pertanyaan terkait port yang digunakan, saya menggunakan filter dengan kata "username". Disini saya dapat jawaban untuk pertanyaan port, endpoint, tools yang digunakan attacker, dan juga username + password.
+![image](https://github.com/user-attachments/assets/e738b1c1-1be7-4f97-a489-0b74e7bac466) <br><br><br><br>
 
 ## Packets Barrage
 ![WhatsApp Image 2024-09-19 at 01 47 08_91388826](https://github.com/user-attachments/assets/b9b40a9e-c00f-4d00-bb00-5350b78e2907)
