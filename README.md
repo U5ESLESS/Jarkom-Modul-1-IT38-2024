@@ -38,6 +38,9 @@
 ## FTP Login
 ![WhatsApp Image 2024-09-19 at 01 47 07_31fc9c5d](https://github.com/user-attachments/assets/22b1739a-7cc0-4221-a21a-ac48037b4a2b)
 ### Penjelasan:
+#### Filter FTP sesuai nama soalnya lalu scroll untuk menemukan login yang sukses. Disitu kita akan menemuka username dan juga passwordnya.
+![image](https://github.com/user-attachments/assets/61983403-cbe0-4157-938e-af816a861111)
+![image](https://github.com/user-attachments/assets/07d21460-f52c-48d7-ad81-9ff4060b62a8) <br><br><br><br>
 
 ## Surprise
 ![WhatsApp Image 2024-09-19 at 01 47 10_1d8caf87](https://github.com/user-attachments/assets/2baf877f-39a1-4422-a706-6c4ac11e570c)
