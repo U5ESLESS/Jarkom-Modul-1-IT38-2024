@@ -5,7 +5,7 @@
 ### Randist Prawanda Putra (5027231059)
 
 ## Advance Sanity Check
-![WhatsApp Image 2024-09-19 at 01 47 07_847e44b4](https://github.com/user-attachments/assets/41ac120c-3b09-43b1-ab3a-cbf45187d9c2)
+![image](https://github.com/user-attachments/assets/72404291-f721-414d-8c5e-5013cabd9b42)
 ### Penjelasan:
 #### frame contains “username”.
 ![image](https://github.com/user-attachments/assets/b0d42e22-ffd5-4100-b234-24395e8f3c61) <br><br><br>
@@ -18,7 +18,7 @@
 
 
 ## Illegal Breakthrough
-![WhatsApp Image 2024-09-19 at 01 47 06_e0ae653a](https://github.com/user-attachments/assets/31463041-8d49-4555-aa38-63b76f54a21a)
+![image](https://github.com/user-attachments/assets/73a31576-16f5-4f2b-877e-8b1d35ec69a8)
 ### Penjelasan:
 #### Ketika Wireshark terbuka, saya langsung memilih IP Destination teratas, lalu saya melihat dari IP destinationnya.
 ![image](https://github.com/user-attachments/assets/a61e0bc2-01fc-4bb6-af8c-a270dd76ceeb) <br><br><br>
@@ -26,7 +26,7 @@
 ![image](https://github.com/user-attachments/assets/e738b1c1-1be7-4f97-a489-0b74e7bac466) <br><br><br><br>
 
 ## Packets Barrage
-![WhatsApp Image 2024-09-19 at 01 47 08_91388826](https://github.com/user-attachments/assets/b9b40a9e-c00f-4d00-bb00-5350b78e2907)
+![image](https://github.com/user-attachments/assets/891286bb-4521-4b9d-b465-51b653fbb2e8)
 ### Penjelasan: 
 #### Ketika Wireshark terbuka, saya langsung memilih IP Source teratas, lalu saya melihat dari IP sourcenya.
 ![image](https://github.com/user-attachments/assets/a61e0bc2-01fc-4bb6-af8c-a270dd76ceeb) <br><br><br>
@@ -36,14 +36,14 @@
 ![image](https://github.com/user-attachments/assets/6bc9862b-34e7-4597-9a84-71f427cdca6b) <br><br><br><br>
 
 ## FTP Login
-![WhatsApp Image 2024-09-19 at 01 47 07_31fc9c5d](https://github.com/user-attachments/assets/22b1739a-7cc0-4221-a21a-ac48037b4a2b)
+![image](https://github.com/user-attachments/assets/a679376f-6612-4bc5-9ea2-a7ee493a0f20)
 ### Penjelasan:
 #### Filter FTP sesuai nama soalnya lalu scroll untuk menemukan login yang sukses. Disitu kita akan menemuka username dan juga passwordnya.
 ![image](https://github.com/user-attachments/assets/61983403-cbe0-4157-938e-af816a861111)
 ![image](https://github.com/user-attachments/assets/07d21460-f52c-48d7-ad81-9ff4060b62a8) <br><br><br><br>
 
 ## Surprise
-![WhatsApp Image 2024-09-19 at 01 47 10_1d8caf87](https://github.com/user-attachments/assets/2baf877f-39a1-4422-a706-6c4ac11e570c)
+![image](https://github.com/user-attachments/assets/3cc33f1d-3940-4f3f-867c-60ea947602db)
 ### Penjelasan:
 #### Dari isi file sebelumnya, kita bisa menemukan nama service yang digunakan dan file yang dikirim oleh attacker.
 ![image](https://github.com/user-attachments/assets/07d21460-f52c-48d7-ad81-9ff4060b62a8) <br><br><br>
