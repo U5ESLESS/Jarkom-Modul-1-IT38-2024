@@ -101,3 +101,52 @@
 ![image-16](https://github.com/user-attachments/assets/70f551ab-d69e-4c48-83d9-6dbffb8c983b)
 - untuk soal terakhir kita dapat membuka file python (noko.py) kemudian mengubah code agar bisa menjalankan operasi XOR dan memasukan nilai key dengan cara perhatikan clue dalam code python `img msg` yaitu NUN
 ![image-17](https://github.com/user-attachments/assets/05baaf14-7bec-4685-b0a8-00105f6aca2c)
+
+# Soal Tambahan
+## 11. Malicious Code
+![image](https://github.com/user-attachments/assets/20eaaac0-20c1-40e3-a83e-3d80c999ad78)
+### Penjelasan:
+- Gunakan filter http.request.method=="GET" && frame contains ".php" untuk menemukan jumlah attempt dirlist dari attacker.
+![image](https://github.com/user-attachments/assets/a473a2c4-a5e1-4105-83aa-6383697a8d0d)
+- Lalu, scroll dan follow hasil filter sampai paling bawah untuk mendapatkan endpoint yg berhasil didapatkan attacker.
+![image](https://github.com/user-attachments/assets/d6d425e8-3962-4a10-9ae2-6354413a8749)
+- Kemudian, filter http.request.method=="POST" untuk mememukan pada percobaan ke berapa attacker berhasil menemukan email dan password yang benar. Ketika difilter terdapat 169 traffic yang terdisplay, nah disini saya mengesampingkan 5 file terbawah karena hanya berisi pesan. Saya menemukan kejanggalan dari length file di urutan 153 karena ukurannya lebih besar dibanding file lainnya dan kemudian saya buka dan benar hasilnya.
+![image](https://github.com/user-attachments/assets/b78fa8fb-6959-4fc0-b68e-02a2f463452d)
+- Terakhir, di 5 file yang saya sampingkan tadi, ada pesan berbahasa ASCII yang menurut saya adalah cluenya. Benar saja, ketika saya pisahkan satu-satu dan kemudian saya convert ternyata ada cluenya.
+![image](https://github.com/user-attachments/assets/aef66ba0-2c70-4627-9648-ed415a35c4af)
+
+## 12. Gajah Terbang (Server Recon)
+![image](https://github.com/user-attachments/assets/50dd7757-7377-4f04-99dc-8667298bfee1)
+### Penjelasan:
+- Saat membuka wireshark langsung keluar jenis protocol PGSQL yang merupakan DBMS, tapi untuk format yang kita masukan merupakan kepanjangannya yaitu PostgreSQL.
+![image](https://github.com/user-attachments/assets/ca300d25-35c7-4aaa-91a2-2829c3ad93e8)
+- Lalu kita disuruh untuk memasukkan port nya PGSQL itu, awalnya saya coba memasukan port 5432 yang merupakan port defaultnya tetapi tidak bisa. Selanjutnya, saya pun sadar kalo ada banyak interaksi dari port   6969 jadi saya coba dan berhasil.
+![image](https://github.com/user-attachments/assets/3b0670a9-027a-4642-a2d6-3c2863de8094)
+- Selanjutnya, saya mencoba follow satu-satu dari semua interaksi port 6969 dan ketemu lah file berikut. Dari sini pun kita bisa tau OS dari server, username DBMS, nama database, jumlah user yang ada, dan email + password yang harus didecode dari admin.
+![image](https://github.com/user-attachments/assets/0b48a48f-f086-4a3f-80ba-44a3c2c358bb)
+
+## 13. Gajah Terbang (Attacker Recon)
+![image](https://github.com/user-attachments/assets/6032c4cb-c805-4307-8d1a-b839b0658357)
+### Penjelasan:
+- Masih memakai gambar sebelumnya, untuk menemukan siapa attackernya saya coba satu-satu dari user yang ada dan yang benar adalah kunto aji. Kemudian untuk passwordnya dari kunto aji juga saya hashing yang hingga mendapat hasilnya. Selanjutnya untuk melihat kapan akun attacker di ban kita bisa melihat pada bagian SELECT * FROM banned_users. Lalu untuk melihat tabel apa saja yang di edit oleh attacker disini kita bisa lihat dari command UPDATE users dan DELETE FROM banned_users. Terakhir untuk produk yang dibeli saya coba input satu-satu dan akhirnya yang benar adalah rokok dan eskrim, untuk total harganya juga bisa dilihat dari SELECT * FROM products.
+![image](https://github.com/user-attachments/assets/0b48a48f-f086-4a3f-80ba-44a3c2c358bb)
+
+## 14. Stegography
+![image](https://github.com/user-attachments/assets/5e7b7d8c-a29b-4156-8cfa-1605ba32e3c2)
+### Penjelasan:
+- Filter dengan frame contains "png" untuk melihat ada berapa banyak gambar yang dikirim, kemudian ekspor object file FTP-DATA ke dalam direktori kita.
+![image](https://github.com/user-attachments/assets/f0635853-ae7d-4975-a6f7-be33ac60bc55)
+- Kemudian kita modifikasi sedikit kode dalam file reversed.py dan kita run. Kalau dilihat dari gambar diatas hanya 3 gambar yang memiliki message, nah tetapi message disini masih terbalik maka dari itu harus di balik dan urutkan menjadi "pahlawan keamanan siber".
+![image](https://github.com/user-attachments/assets/4c15723d-b80e-4a32-b5fe-6cd9a1096712) ![image](https://github.com/user-attachments/assets/37b97b62-750c-4f71-9163-e85f416d3335)
+
+## 15. inneRCE
+![image](https://github.com/user-attachments/assets/053b98c2-e2d2-4eb5-9ee8-e281bc623cf2)
+### Penjelasan:
+- Untuk menemukan hacker berhasil mengupload webshell, kita bisa filter http terlebih dahulu. Di hasil filter kita bisa lihat bahwa ada endpoint /upload.php, kemudian disitu saya buka detail packagenya dan melihat arrival timenya.
+![image](https://github.com/user-attachments/assets/826049a0-5dbe-4780-b9ca-0edae9b47736)
+- Langkah selanjutnya, karena diminta mencari hostname saya coba untuk memfilter menggunakan frame contains "hostname" dan benar saja keluar satu package yang saat saya follow seperti ini hasilnya. Dari sini kita bisa tahu endpoint url, hostname, dan webshell yang diupload hacker.
+![image](https://github.com/user-attachments/assets/b115f097-6570-430c-8d7e-889ea1c689d9)
+- Kemudian, untuk menemukan command pertama yg di eksekusi hacker, saya menggunakan filter frame contains "idzoyyshell.php" dan saya menemuka command pertamanya seperti berikut.
+![image](https://github.com/user-attachments/assets/2c120ab1-2bbc-4f8a-9f7e-2494a7383a89)
+- Terakhir, untuk menemukan pesan yang hacker tuliskan, saya gunakan dari filter tadi juga. Kalau diliat di gambar sebelumnya, ada package yang mengandung base64, disini saya langsung follow dan ada pesan yang dienkripsi. Untuk mendapat pesannya kita harus mendekripsi kata-katanya sehingga hasil akhirnya menjadi pls rate soal ini.
+![image](https://github.com/user-attachments/assets/16156fde-a4ca-4e31-9335-cb965e6f04bd) ![image](https://github.com/user-attachments/assets/5b418131-9ddb-47e4-aba2-3dc999b8940e)
